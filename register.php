@@ -1,5 +1,6 @@
 <?php
 include_once('db_connect.php'); //mengambil data dari db_connect.php
+$database = new database();
 //mengecek info register
 if(isset($_POST['register']))
 {
